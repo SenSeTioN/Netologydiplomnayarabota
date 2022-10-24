@@ -27,8 +27,6 @@ body {
 
 .header {
 	min-width: 1300px;
-	height: 450px;
-
 	background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/banner-bg.jpg);
 	background-color: #060606;
 	background-size: cover;
@@ -98,9 +96,10 @@ body {
 	line-height: 1.6;
 	text-transform: uppercase;
 	text-align: center;
-
-	position: relative;
-	top: 120px;
+	padding-top: 100px;
+	padding-bottom: 145px;
+	width: 700px;
+	margin: 0 auto;
 }
 
 .content {
@@ -121,7 +120,6 @@ body {
 
 .main__content-posts-main-img {
 	max-width: 380px;
-	max-height: 295px;
 }
 
 .main__content-posts-main {
@@ -390,11 +388,12 @@ body {
 	color: #060606;
 }
 
-.sidebar__themes-link > sup {
+.sidebar__themes-link > span {
 	padding-left: 5px;
 	color: #b59f5b;
 	font-size: 12px;
 	font-weight: 700;
+	vertical-align: super;
 }
 
 .footer {
@@ -413,20 +412,25 @@ body {
 }
 
 .footer__icon-list-item {
-	background-repeat: no-repeat;
     background-position: center;
     background-size: 20px;
     padding: 30px 15px;
+	margin: 0 10px;
 }
 
 .footer__icon-list-link {
 	display: block;
 	text-decoration: none;
 	position: relative;
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 25px;
+	width: 25px;
+	font-size: 0;
 }
-.hidden-icon {
+/* .hidden-icon {
 	visibility: hidden;
-}
+} */
 
 .dribbble {
 	background-image:url(https://netology-code.github.io/html-2-diploma/sources/images/social/001-dribbble.svg);
